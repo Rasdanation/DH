@@ -126,6 +126,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	spamtonneo: {
 		num: 12,
 		name: "Spamton NEO",
+		baseSpecies: "Spamton",
 		types: ["Dark", "Poison"],
 		gender: "M",
 		baseStats: {hp: 107, atk: 127, def: 97, spa: 127, spd: 97, spe: 97},
