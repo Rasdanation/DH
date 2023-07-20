@@ -2,6 +2,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	malenia: {
 		num: 1,
 		name: "Malenia",
+		baseSpecies: "Malenia",
 		types: ["Grass", "Poison"],
 		gender: "F",
 		baseStats: {hp: 70, atk: 115, def: 71, spa: 68, spd: 94, spe: 117},
@@ -11,6 +12,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	kingdedede: {
 		num: 2,
 		name: "King Dedede",
+		baseSpecies: "King Dedede",
     	baseForme: "King",
 		types: ["Flying", "Fighting"],
     	gender: "M",
@@ -35,6 +37,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	princesszelda: {
 		num: 3,
 		name: "Princess Zelda",
+		baseSpecies: "Zelda",
 		types: ["Psychic"],
 		gender: "F",
 		baseStats: {hp: 96, atk: 71, def: 79, spa: 114, spd: 111, spe: 79},
@@ -44,6 +47,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	isaac: {
 		num: 4,
 		name: "Isaac",
+		baseSpecies: "Isaac",
 		types: ["Ground"],
 		gender: "M",
 		baseStats: {hp: 98, atk: 120, def: 80, spa: 105, spd: 80, spe: 97},
@@ -53,6 +57,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	dracocentauros: {
 		num: 5,
 		name: "Draco Centauros",
+		baseSpecies: "Draco Centauros",
 		types: ["Dragon", "Fire"],
 		gender: "F",
 		baseStats: {hp: 95, atk: 90, def: 113, spa: 70, spd: 92, spe: 81},
@@ -62,6 +67,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	funkykong: {
 		num: 6,
 		name: "Funky Kong",
+		baseSpecies: "Funky Kong",
 		types: ["Ground", "Flying"],
 		gender: "M",
 		baseStats: {hp: 85, atk: 110, def: 80, spa: 70, spd: 80, spe: 100},
@@ -71,6 +77,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	balogar: {
 		num: 7,
 		name: "Balogar",
+		baseSpecies: "Balogar",
 		types: ["Steel", "Psychic"],
 		gender: "M",
 		baseStats: {hp: 100, atk: 130, def: 100, spa: 86, spd: 81, spe: 73},
@@ -80,6 +87,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	kingkrool: {
 		num: 8,
 		name: "King K Rool",
+		baseSpecies: "King K. Rool",
 		types: ["Water", "Steel"],
 		gender: "M",
 		baseStats: {hp: 90, atk: 75, def: 80, spa: 115, spd: 110, spe: 60},
@@ -89,6 +97,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	clownpiece: {
 		num: 9,
 		name: "Clownpiece",
+		baseSpecies: "Clownpiece",
 		types: ["Ghost", "Fairy"],
 		gender: "F",
 		baseStats: {hp: 160, atk: 90, def: 60, spa: 100, spd: 60, spe: 60},
@@ -98,6 +107,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	olympia: {
 		num: 10,
 		name: "Olympia",
+		baseSpecies: "Olympia",
 		types: ["Fighting", "Rock"],
 		gender: "F",
 		baseStats: {hp: 85, atk: 120, def: 99, spa: 55, spd: 76, spe: 100},
@@ -107,6 +117,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	gravelordlych: {
 		num: 11,
 		name: "Gravelord Lych",
+		baseSpecies: "Gravelord Lych",
 		types: ["Ghost", "Flying"],
 		gender: "N",
 		baseStats: {hp: 180, atk: 60, def: 50, spa: 110, spd: 60, spe: 80},
@@ -116,6 +127,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	spamton: {
 		num: 12,
 		name: "Spamton",
+		baseSpecies: "Spamton",
 		types: ["Dark", "Poison"],
 		gender: "M",
 		baseStats: {hp: 70, atk: 97, def: 97, spa: 97, spd: 97, spe: 97},
@@ -147,6 +159,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	tropicaleon: {
 		num: 14,
 		name: "Tropicaleon",
+		baseSpecies: "Tropicaleon",
 		types: ["Normal"],
 		baseStats: {hp: 90, atk: 67, def: 122, spa: 100, spd: 120, spe: 40},
 		abilities: {0: "Color Change", H: "Chameleon"},
@@ -155,6 +168,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	dewy: {
 		num: 15,
 		name: "Dewy",
+		baseSpecies: "Dewy",
 		types: ["Water", "Fairy"],
 		gender: "M",
 		baseStats: {hp: 90, atk: 93, def: 80, spa: 93, spd: 105, spe: 100},
@@ -187,6 +201,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	fectoelfilis: {
 		num: 16,
 		name: "Fecto Elfilis",
+		baseSpecies: "Fecto Elfilis",
 		types: ["Psychic"],
 		gender: "N",
 		baseStats: {hp: 90, atk: 130, def: 86, spa: 142, spd: 110, spe: 122},
@@ -196,6 +211,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	susie: {
 		num: 17,
 		name: "Susie",
+		baseSpecies: "Susie",
 		types: ["Dark", "Dragon"],
 		gender: "F",
 		baseStats: {hp: 110, atk: 130, def: 85, spa: 40, spd: 85, spe: 90},
@@ -205,6 +221,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	mora: {
 		num: 18,
 		name: "Mora",
+		baseSpecies: "Mora",
 		types: ["Bug", "Dark"],
 		gender: "F",
 		baseStats: {hp: 85, atk: 130, def: 100, spa: 65, spd: 65, spe: 75},
@@ -225,6 +242,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	maskedman: {
 		num: 20,
 		name: "Masked Man",
+		baseSpecies: "Masked Man",
 		types: ["Electric", "Psychic"],
 		gender: "M",
 		baseStats: {hp: 70, atk: 110, def: 105, spa: 110, spd: 90, spe: 80},
@@ -234,6 +252,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	jackfrost: {
 		num: 21,
 		name: "Jack Frost",
+		baseSpecies: "Jack Frost",
 		types: ["Ice", "Ghost"],
 		gender: "M",
 		baseStats: {hp: 70, atk: 88, def: 54, spa: 112, spd: 75, spe: 105},
@@ -243,6 +262,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	ishtar: {
 		num: 22,
 		name: "Ishtar",
+		baseSpecies: "Ishtar",
 		types: ["Rock", "Electric"],
 		gender: "F",
 		baseStats: {hp: 75, atk: 65, def: 75, spa: 135, spd: 95, spe: 105},
@@ -252,6 +272,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	matka: {
 		num: 23,
 		name: "Matka",
+		baseSpecies: "Matka",
 		types: ["Poison", "Fairy"],
 		gender: "F",
 		baseStats: {hp: 77, atk: 79, def: 81, spa: 133, spd: 119, spe: 41},
