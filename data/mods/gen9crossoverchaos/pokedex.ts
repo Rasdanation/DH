@@ -112,7 +112,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		gender: "F",
 		baseStats: {hp: 85, atk: 120, def: 99, spa: 55, spd: 76, spe: 100},
 		abilities: {0: "Inner Focus", 1: "Guts", H: "Crystallize"},
-		weightkg: 142,
+		weightkg: 64.4,
 	},
 	gravelordlych: {
 		num: 11,
@@ -133,7 +133,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 70, atk: 97, def: 97, spa: 97, spd: 97, spe: 97},
 		abilities: {0: "Tinted Lens", 1: "Receiver", H: "Relentless"},
 		formeOrder: ["Spamton", "Spamton NEO"],
-		weightkg: 97,
+		weightkg: 9.7,
 	},
 	spamtonneo: {
 		num: 12,
@@ -154,7 +154,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		gender: "F",
 		baseStats: {hp: 108, atk: 125, def: 100, spa: 75, spd: 50, spe: 92},
 		abilities: {0: "Dry Skin", H: "Medicinal Background"},
-		weightkg: 135,
+		weightkg: 61.2,
 	},
 	tropicaleon: {
 		num: 14,
@@ -163,7 +163,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		types: ["Normal"],
 		baseStats: {hp: 90, atk: 67, def: 122, spa: 100, spd: 120, spe: 40},
 		abilities: {0: "Color Change", H: "Chameleon"},
-		weightkg: 40,
+		weightkg: 18.1,
 	},
 	dewy: {
 		num: 15,
@@ -206,7 +206,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		gender: "N",
 		baseStats: {hp: 90, atk: 130, def: 86, spa: 142, spd: 110, spe: 122},
 		abilities: {0: "Neuroforce", H: "Telepathy"},
-		weightkg: 175,
+		weightkg: 79.4,
 	},
 	susie: {
 		num: 17,
@@ -216,7 +216,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		gender: "F",
 		baseStats: {hp: 110, atk: 130, def: 85, spa: 40, spd: 85, spe: 90},
 		abilities: {0: "Intimidate", H: "Mold Breaker"},
-		weightkg: 128,
+		weightkg: 58.05,
 	},
 	mora: {
 		num: 18,
@@ -226,7 +226,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		gender: "F",
 		baseStats: {hp: 85, atk: 130, def: 100, spa: 65, spd: 65, spe: 75},
 		abilities: {0: "Compound Eyes", H: "Call of Darkness"},
-		weightkg: 41,
+		weightkg: 18.6,
 	},
 	wrigglenightbugaltered: {
 		num: 19,
@@ -237,7 +237,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		gender: "F",
 		baseStats: {hp: 80, atk: 125, def: 70, spa: 88, spd: 72, spe: 135},
 		abilities: {0: "Color Filter", H: "Blackout Curtain"},
-		weightkg: 60,
+		weightkg: 27.2,
 	},
 	maskedman: {
 		num: 20,
@@ -247,7 +247,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		gender: "M",
 		baseStats: {hp: 70, atk: 110, def: 105, spa: 110, spd: 90, spe: 80},
 		abilities: {0: "Sharpness", 1: "Screen Cleaner", H: "Lightning Rod"},
-		weightkg: 115,
+		weightkg: 52.1,
 	},
 	jackfrost: {
 		num: 21,
@@ -257,7 +257,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		gender: "M",
 		baseStats: {hp: 70, atk: 88, def: 54, spa: 112, spd: 75, spe: 105},
 		abilities: {0: "Slush Rush", 1: "Prankster", H: "Frigid Bloodline"},
-		weightkg: 76,
+		weightkg: 34.4,
 	},
 	ishtar: {
 		num: 22,
@@ -267,7 +267,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		gender: "F",
 		baseStats: {hp: 75, atk: 65, def: 75, spa: 135, spd: 95, spe: 105},
 		abilities: {0: "Levitate", 1: "Dazzling", H: "Long Reach"},
-		weightkg: 102,
+		weightkg: 46.3,
 	},
 	matka: {
 		num: 23,
@@ -277,7 +277,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		gender: "F",
 		baseStats: {hp: 77, atk: 79, def: 81, spa: 133, spd: 119, spe: 41},
 		abilities: {0: "Curse Weaver"},
-		weightkg: 144,
+		weightkg: 65.3,
 	},
 	hecatiatropical: {
 		num: 24,
@@ -288,7 +288,40 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		gender: "F",
 		baseStats: {hp: 100, atk: 129, def: 92, spa: 112, spd: 80, spe: 82},
 		abilities: {0: "Jelly Dessert Queen"},
-		weightkg: 89,
+		weightkg: 40.4,
 	},
-
+	hestu: {
+		num: 25,
+		name: "Hestu",
+		types: ["Grass"],
+		baseStats: {hp: 78, atk: 112, def: 154, spa: 65, spd: 75, spe: 68},
+		abilities: {0: "Unaware", 1: "Harvest", H: "Prankster"},
+		weightkg: 321,
+	},
+	twinrova: {
+		num: 26,
+		name: "Twinrova",
+		types: ["Ice", "Psychic"],
+		baseStats: {hp: 90, atk: 100, def: 74, spa: 133, spd: 92, spe: 111},
+		abilities: {0: "Binary Soul"},
+		weightkg: 58.85,
+	},
+	twinrovafire: {
+		num: 27,
+		name: "Twinrova-Fire",
+		baseSpecies: "Twinrova",
+		forme: "Fire",
+		types: ["Fire", "Psychic"],
+		baseStats: {hp: 90, atk: 100, def: 74, spa: 133, spd: 92, spe: 111},
+		abilities: {0: "Binary Soul"},
+		weightkg: 58.85,
+	},
+	snecko: {
+		num: 28,
+		name: "Snecko",
+		types: ["Dragon", "Poison"],
+		baseStats: {hp: 80, atk: 120, def: 70, spa: 85, spd: 110, spe: 90},
+		abilities: {0: "Contrary", 1: "Intimidate", H: "Perplexing Glare"},
+		weightkg: 51.7,
+	},
 };
