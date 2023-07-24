@@ -516,7 +516,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		contestType: "Beautiful",
 	},
 	shakalakamaracas: {
-		num: 845,
+		num: -20,
 		accuracy: 90,
 		basePower: 65,
 		category: "Physical",
@@ -541,7 +541,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		type: "Grass",
 	},
 	doubledynamite: {
-		num: 783,
+		num: -21,
 		accuracy: 100,
 		basePower: 90,
 		category: "Special",
